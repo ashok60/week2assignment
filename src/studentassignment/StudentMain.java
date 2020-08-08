@@ -10,7 +10,7 @@ public class StudentMain {
 			run.runApp();
 		}
 
-		public void runApp() {
+		public void runCreate() {
 			Student s1 =new Student("a1", 22, "vinay");
 			Student s2 =new Student("a2", 24, "vinnet");
 			Student s3 =new Student("a3", 25, "prasad");
