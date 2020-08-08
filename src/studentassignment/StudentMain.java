@@ -16,10 +16,10 @@ public class StudentMain {
 			Student s3 =new Student("a3", 25, "prasad");
 			Student s4 =new Student("a4", 26, "teja");
 			
-			map.put("1",v1);
-			map.put("2",z2);
-			map.put("3",y3);
-			map.put("4",x4);		
+			map.put("1",s1);
+			map.put("2",s2);
+			map.put("3",s3);
+			map.put("4",s4);		
 			
 			app();
 			
