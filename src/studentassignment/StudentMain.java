@@ -10,7 +10,7 @@ public class StudentMain {
 			run.runApp();
 		}
 
-		public void runCreate() {
+		public void runApp() {
 			Student s1 =new Student("a1", 22, "vinay");
 			Student s2 =new Student("a2", 24, "vinnet");
 			Student s3 =new Student("a3", 25, "prasad");
@@ -21,11 +21,11 @@ public class StudentMain {
 			map.put("3",y3);
 			map.put("4",x4);		
 			
-			create();
+			app();
 			
 		}
 
-		public void create() {
+		public void app() {
 			Set<String> keys = map.keySet();
 			for (String k : keys) {
 				Student student = map.get(k);
