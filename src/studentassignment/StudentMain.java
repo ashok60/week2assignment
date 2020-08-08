@@ -21,10 +21,11 @@ public class StudentMain {
 			map.put("3",y3);
 			map.put("4",x4);		
 			
-			app();
+			create();
+			
 		}
 
-		public void app() {
+		public void create() {
 			Set<String> keys = map.keySet();
 			for (String k : keys) {
 				Student student = map.get(k);
